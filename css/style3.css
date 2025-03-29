@@ -1,6 +1,7 @@
+/* Structure */
 body
 {
-    background-color: rgb(40, 2, 58);
+    background-color: rgb(2, 8, 58);
     font-family: Arial;
     color: white;
     padding: 10px;
@@ -16,6 +17,17 @@ section
     border-style: solid;
     border-radius: 10px;
 }
+div
+{
+    background-color: rgb(177, 218, 255);
+    padding: 5px;
+
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 10px;
+}
+/* Navigation */
 nav ul
 {
     list-style: none;
@@ -27,22 +39,45 @@ nav ul
 nav a
 {
     text-decoration: none;
+    color: white; /* Change font colour of navigation */
     padding: 10px;
 }
 nav a:hover
 {
-    color: white;
+    color: black;
+}
+nav div
+{
+    background-color: rgb(69, 0, 101);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    border-color: rgb(79, 47, 255);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+}
+nav div:hover
+{
+    background-color: rgb(190, 50, 255);
 }
 
 /* Custom sections */
-.nav 
+.navBanner /* Navigation banner */
 {
-    
+    width: 100%;
+    background-color: rgba(112, 112, 112, 0.388);
+    text-align: justify;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .sec1
 {
     background-color: rgb(251, 255, 0);
     padding: 10px;
+    color: black;
 
     border-color: rgb(73, 73, 73);
     border-width: 5px;
@@ -53,6 +88,7 @@ nav a:hover
 {
     background-color: rgb(177, 251, 127);
     padding: 10px;
+    color: black;
 
     border-color: rgb(255, 51, 0);
     border-width: 5px;
