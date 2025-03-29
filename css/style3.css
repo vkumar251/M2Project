@@ -49,8 +49,8 @@ nav a:hover
 nav div
 {
     background-color: rgb(69, 0, 101);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 40px;
     padding-right: 40px;
 
@@ -69,7 +69,7 @@ nav div:hover
 {
     width: 100%;
     background-color: rgba(112, 112, 112, 0.388);
-    text-align: justify;
+    text-align: center;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -95,3 +95,24 @@ nav div:hover
     border-style: solid;
     border-radius: 10px;
 }
+
+/* Custom Divisions */
+.div1
+{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 10px; /* Add space between borders */
+}
+.left /* Left-side div */
+{
+    background-color: rgb(138, 255, 173);
+    padding: 20px;
+    color: black;
+}
+.right /* Right-side div */
+{
+    background-color: lightcoral;
+    padding: 20px;
+    color: black;
+} 
