@@ -1,0 +1,61 @@
+body
+{
+    background-color: rgb(40, 2, 58);
+    font-family: Arial;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+section
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    gap: 40px;
+}
+nav a
+{
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover
+{
+    color: white;
+}
+
+/* Custom sections */
+.nav 
+{
+    
+}
+.sec1
+{
+    background-color: rgb(251, 255, 0);
+    padding: 10px;
+
+    border-color: rgb(73, 73, 73);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.sec2
+{
+    background-color: rgb(177, 251, 127);
+    padding: 10px;
+
+    border-color: rgb(255, 51, 0);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}

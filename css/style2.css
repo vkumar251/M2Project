@@ -1,0 +1,134 @@
+/* Basic Reset */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Arial;
+    line-height: 1.6;
+    background-color: rgb(255, 244, 232);
+}
+
+/* Navigation Styling */
+.nav-container 
+{
+    background-color: rgb(255, 132, 0);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+}
+.main-nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Align to centre */
+    gap: 2rem; /* Add spacing between nav items */
+}
+.main-nav a
+{
+    color: white;
+    text-decoration: none; /* Remove underlines */
+    padding 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+.main-nav a:hover
+{
+    color: blue;
+}
+
+/* Header Styling */
+.header
+{
+    text-align: center; /* Align paragraphs to centre */
+    padding: 3rem 1rem;
+    background-color:rgb(211, 211, 211);
+    margin-bottom: 10rem;
+}
+.header h1
+{
+    color:rgb(59, 0, 132);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.subtitle
+{
+    color: #98007f;
+    font-size: 1.2rem;
+}
+
+/* Main Coding Style */
+.main-content
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.about-section, 
+.services-section, 
+.gallery-section
+{
+    background-color: rgba(100, 139, 116, 0.652);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #3c3c3c;
+}
+.gallery-section a
+{
+    color: #ff00e6;
+    text-decoration: none;
+}
+.gallery-section a:hover
+{
+    color: rgb(255, 197, 249)
+}
+.contact-section
+{
+    background-color: rgba(147, 147, 255, 0.64);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    border-style: groove;
+    border-radius: 20px;
+}
+h2
+{
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+/* Text Formatting */
+.highlight
+{
+    background-color: gold;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+em
+{
+    color: #666;
+    font-style: italic;
+}
+.email
+{
+    color: rgb(0, 79, 170);
+    font-weight: bold;
+}
+
+/* Footer Styling */
+.footer
+{
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
